@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_Dtouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3dd" translatesAutoresizingMaskIntoConstraints="NO" id="m5e-Ou-C1H">
+                                <rect key="frame" x="0.0" y="-145" width="375" height="961"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3d" translatesAutoresizingMaskIntoConstraints="NO" id="U7q-wU-9f2">
+                                <rect key="frame" x="0.0" y="227" width="375" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="213" id="irb-GC-vRy"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEr-Bn-8GV">
+                                <rect key="frame" x="135" y="480" width="104" height="39"/>
+                                <color key="backgroundColor" red="0.2461298858" green="0.76415767769999998" blue="0.53171348519999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="104" id="Cpp-rI-kq1"/>
+                                    <constraint firstAttribute="height" constant="39" id="YQN-V1-QmH"/>
+                                </constraints>
+                                <state key="normal" title="Go">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8bK-bt-2Xy" kind="show" id="Wrx-Tm-Wfi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m5e-Ou-C1H" secondAttribute="bottom" constant="-149" id="3Kk-tG-lzL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U7q-wU-9f2" secondAttribute="trailing" id="BLd-hB-E2l"/>
+                            <constraint firstItem="m5e-Ou-C1H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="M67-y2-od3"/>
+                            <constraint firstItem="JEr-Bn-8GV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VGH-9S-GV0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="m5e-Ou-C1H" secondAttribute="top" constant="165" id="d5w-nu-83B"/>
+                            <constraint firstItem="U7q-wU-9f2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mfw-bb-yUl"/>
+                            <constraint firstItem="U7q-wU-9f2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pxE-c1-bjZ"/>
+                            <constraint firstItem="U7q-wU-9f2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qP3-QA-ZH0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m5e-Ou-C1H" secondAttribute="trailing" id="xRf-f8-908"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JEr-Bn-8GV" secondAttribute="bottom" constant="148" id="xTd-cT-9ca"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+        <!--View Controller1-->
+        <scene sceneID="0EM-mY-2na">
+            <objects>
+                <viewController storyboardIdentifier="3dtouch" id="8bK-bt-2Xy" customClass="ViewController1" customModule="_Dtouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g28-P7-mao">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="india" translatesAutoresizingMaskIntoConstraints="NO" id="FYO-iK-d9u">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3D touch on image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbI-Jj-ma1">
+                                <rect key="frame" x="94.5" y="154" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Aib-qr-6re"/>
+                                    <constraint firstAttribute="width" constant="186" id="nKM-zC-g54"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Crd-nh-7Om" firstAttribute="trailing" secondItem="FYO-iK-d9u" secondAttribute="trailing" id="2hG-Am-Byj"/>
+                            <constraint firstItem="Crd-nh-7Om" firstAttribute="top" secondItem="FYO-iK-d9u" secondAttribute="top" constant="20" id="Iht-nS-6bO"/>
+                            <constraint firstItem="fbI-Jj-ma1" firstAttribute="top" secondItem="Crd-nh-7Om" secondAttribute="top" constant="134" id="Kmd-BU-j0X"/>
+                            <constraint firstItem="fbI-Jj-ma1" firstAttribute="centerX" secondItem="g28-P7-mao" secondAttribute="centerX" id="Tpt-1g-1Kf"/>
+                            <constraint firstItem="Crd-nh-7Om" firstAttribute="bottom" secondItem="FYO-iK-d9u" secondAttribute="bottom" id="WgJ-TT-YQ0"/>
+                            <constraint firstItem="FYO-iK-d9u" firstAttribute="leading" secondItem="Crd-nh-7Om" secondAttribute="leading" id="gyL-hx-Y2s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Crd-nh-7Om"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="FYO-iK-d9u" id="AyU-6L-dUk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQg-kS-4ge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781.60000000000002" y="117.39130434782609"/>
+        </scene>
+        <!--Pop View Controller-->
+        <scene sceneID="f61-0w-N1M">
+            <objects>
+                <viewController storyboardIdentifier="popVC" id="wjt-f7-BT7" customClass="popViewController" customModule="_Dtouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QYi-Bt-MHR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Jg-Am-Zpx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCJ-Xn-HDZ">
+                                <rect key="frame" x="109" y="603" width="157" height="44"/>
+                                <color key="backgroundColor" red="0.3135869865" green="0.76415767769999998" blue="0.58842477270000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Avf-Ji-SUs"/>
+                                    <constraint firstAttribute="width" constant="157" id="weL-Zm-C3V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="lQd-dy-1ZC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0Jg-Am-Zpx" firstAttribute="leading" secondItem="Znd-4m-NeQ" secondAttribute="leading" id="6L0-OR-GBB"/>
+                            <constraint firstItem="Znd-4m-NeQ" firstAttribute="top" secondItem="0Jg-Am-Zpx" secondAttribute="top" constant="20" id="Nmp-ew-fee"/>
+                            <constraint firstItem="Znd-4m-NeQ" firstAttribute="bottom" secondItem="XCJ-Xn-HDZ" secondAttribute="bottom" constant="20" id="je6-Cj-pqk"/>
+                            <constraint firstItem="XCJ-Xn-HDZ" firstAttribute="centerX" secondItem="QYi-Bt-MHR" secondAttribute="centerX" id="vRs-ev-tFQ"/>
+                            <constraint firstItem="Znd-4m-NeQ" firstAttribute="trailing" secondItem="0Jg-Am-Zpx" secondAttribute="trailing" id="vpr-KG-E4k"/>
+                            <constraint firstItem="Znd-4m-NeQ" firstAttribute="bottom" secondItem="0Jg-Am-Zpx" secondAttribute="bottom" id="xVo-dW-gAK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Znd-4m-NeQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="back" destination="XCJ-Xn-HDZ" id="BTc-dk-fpU"/>
+                        <outlet property="photo" destination="0Jg-Am-Zpx" id="tTn-uz-9iA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qQ5-nt-ZvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504.8" y="116.49175412293854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3d" width="1500" height="844"/>
+        <image name="3dd" width="1440" height="1175"/>
+        <image name="india" width="457" height="257"/>
+    </resources>
+</document>
